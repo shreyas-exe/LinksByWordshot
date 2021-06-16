@@ -4,6 +4,9 @@
   box-sizing: border-box;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
+html{
+  overflow-x: hidden;
+}
 .background {
   background: linear-gradient(to right, #f2994a, #f2c94c);
   height: 45rem;
@@ -41,6 +44,7 @@
   justify-content: space-between;
   height: 330px;
   margin-top: -2.7%;
+  padding-top: 30px;
 }
 @media only screen and (max-width: 360px) {
   .btn {
@@ -59,4 +63,14 @@ footer {
 h3 {
   color: white;
   font-size: 0.8rem;
+}
+#greetingText{
+  position: absolute;
+  top: 9.5rem;
+  font-size: 1.7rem;
+  color: white;
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: black;  
+  text-align: center;
+  text-transform: capitalize;
 }
